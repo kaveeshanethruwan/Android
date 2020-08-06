@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".frmRate">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="372dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="10dp"
+        android:background="@color/actionbar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Rate Us"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="50dp"
+            android:textColor="@color/darkbtncolor"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="78dp"
+            android:text="Rate And Give Your Idea About Service  "
+            android:textColor="@color/darkbtncolor"
+            android:textStyle="bold"
+            />
+        <RatingBar
+            android:id="@+id/txtrate"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="110dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/RatingBar" />
+
+        <EditText
+            android:id="@+id/txtcomment"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rec"
+            android:ems="10"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="180dp"
+            android:hint="@string/txtrate"
+            android:inputType="textMultiLine"
+            android:paddingLeft="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnrate"
+            android:layout_width="144dp"
+            android:layout_height="41dp"
+            android:background="@color/btncolor"
+            android:text="@string/ratebutton"
+            android:textAllCaps="false"
+            android:textColor="@color/backgroundcolor"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="240dp"/>
+
+        <ProgressBar
+            android:id="@+id/progress_circle"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="280dp"
+            android:elevation="2dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

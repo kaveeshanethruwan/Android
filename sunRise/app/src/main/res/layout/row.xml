@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="174dp"
+    app:cardBackgroundColor="@color/actionbar"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/rImageView"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/rName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-140dp"
+            android:textColor="@color/rate"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="6dp"
+            android:text="Rs."
+            android:textStyle="bold"
+            android:textColor="@color/price"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="-20dp"
+            android:textStyle="bold"
+            android:text="Price"
+            android:textColor="@color/price"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/rDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="6dp"
+            android:text="Description"
+            android:textColor="@color/rate"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rofferlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/discount"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/rDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="240dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="-20.5dp"
+            android:textColor="@color/discount"
+            android:textSize="15sp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="174dp"
+    app:cardBackgroundColor="@color/actionbar"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="6dp"
+        android:text="Order ID"
+        android:textStyle="bold"
+        android:textColor="@color/rate"
+        android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zorderid"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="-20dp"
+            android:textStyle="bold"
+            android:text="Order ID"
+            android:textColor="@color/darkblack"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="6dp"
+            android:text="Order Date"
+            android:textStyle="bold"
+            android:textColor="@color/rate"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zorderdate"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-20dp"
+            android:textStyle="bold"
+            android:text="Order Date"
+            android:textColor="@color/darkblack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="6dp"
+            android:text="Delivery Date"
+            android:textStyle="bold"
+            android:textColor="@color/rate"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zdeliverydate"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-20dp"
+            android:textStyle="bold"
+            android:text="Delivery Date"
+            android:textColor="@color/price"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="6dp"
+            android:text="Delivery Time"
+            android:textStyle="bold"
+            android:textColor="@color/rate"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zdeliverytime"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-20dp"
+            android:textStyle="bold"
+            android:text="Delivery Time"
+            android:textColor="@color/price"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="6dp"
+            android:text="Status"
+            android:textStyle="bold"
+            android:textColor="@color/rate"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/zstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-20dp"
+            android:textStyle="bold"
+            android:text="Status"
+            android:textColor="@color/discount"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/zzImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="-120dp"
+            android:layout_marginLeft="250dp"
+            android:scaleType="centerCrop"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

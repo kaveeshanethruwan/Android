@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".frmBeforeFinish">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@color/load">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OrderType"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgtype">
+
+                <RadioButton
+                    android:id="@+id/rbgift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="It's a gift"
+                    android:textColor="@color/rate"
+                    android:textStyle="bold">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rbme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="It's for me"
+                    android:textColor="@color/rate"
+                    android:textStyle="bold">
+                </RadioButton>
+            </RadioGroup>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            android:background="@color/load"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp">
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rec"
+                android:paddingLeft="20dp"
+                android:inputType="textPersonName"
+                android:hint="Name"/>
+
+            <TextView
+                android:id="@+id/tvphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <EditText
+                android:id="@+id/txtphone"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rec"
+                android:paddingLeft="20dp"
+                android:inputType="number"
+                android:hint="Phone number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:text="Delivery Address"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="195dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <EditText
+                android:id="@+id/txtaddress"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="220dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Address"
+                android:background="@drawable/back"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery City"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <Spinner
+                android:id="@+id/spcity"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="335dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rec"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location Type"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <Spinner
+                android:id="@+id/splocationtype"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="425dp"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rec"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery date must be futer date and time must be between 8am and 6pm"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/price"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <TextView
+                android:layout_width="900dp"
+                android:layout_height="wrap_content"
+                android:text="Delivery Date"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="520dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+                android:id="@+id/imgDate"
+                android:layout_width="70dp"
+                android:layout_height="59dp"
+                android:clickable="true"
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="120dp"/>
+
+            <TextView
+                android:layout_width="900dp"
+                android:layout_height="wrap_content"
+                android:text="Delivery Time"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="520dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+                android:id="@+id/imgTime"
+                android:layout_width="70dp"
+                android:layout_height="59dp"
+                android:clickable="true"
+                android:src="@drawable/ic_access_time_black_24dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="338dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold"
+                android:text="Special Delivery Instructions:(Optional)"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="570dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <EditText
+                android:id="@+id/txtinstructions"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="597dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Optional"
+                android:background="@drawable/back"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please write your special instructions short and clear,"
+                android:textColor="@color/rate"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Example:"
+                android:textColor="@color/darkblack"
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="'Call the recipient before the delivery'."
+                android:textColor="@color/rate"
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="25dp"/>
+
+            <Button
+                android:id="@+id/btncontinue"
+                android:layout_width="250dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="700dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/btncolor"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/actionbar"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".frmSelectDelivery">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="More Info"
+        android:textColor="@color/rate"
+        android:textSize="35sp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-179dp"
+        android:layout_marginTop="70dp"
+        app:cardCornerRadius="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:text="Select Weght"
+            android:textColor="@color/darkbtncolor"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/txtweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="25dp"
+            android:spinnerMode="dialog"
+            android:paddingLeft="150dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-400dp"
+        android:layout_marginTop="180dp"
+        app:cardCornerRadius="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:text="Message on Cake If you want"
+            android:textColor="@color/darkbtncolor"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtcakemessage"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rec"
+            android:hint="Happy Birthday Like..."
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/deeppurple" />
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/btncolor"
+        android:layout_marginLeft="-410dp"
+        android:layout_marginTop="550dp">
+
+        <ImageView
+            android:id="@+id/imgstatus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/adddtocart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/actionbar"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            />
+    </LinearLayout>
+</LinearLayout>

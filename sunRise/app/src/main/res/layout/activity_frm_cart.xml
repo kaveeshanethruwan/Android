@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".frmViewMyOrders"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/cartprogress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/btncolor"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:id="@+id/cartrecyclerView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/rate">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Count"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/actionbar"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/actionbar"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount Payable"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginLeft="150dp"
+            android:textColor="@color/actionbar"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/actionbar"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="51dp"
+        android:background="@color/actionbar">
+        <TextView
+            android:id="@+id/txtcontinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue Shopping"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/btncolor"
+            android:layout_marginTop="10dp"/>
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="127dp"
+        android:layout_height="51dp"
+        android:background="@color/btncolor"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="-51.5dp">
+        <TextView
+            android:id="@+id/txtcheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/actionbar"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

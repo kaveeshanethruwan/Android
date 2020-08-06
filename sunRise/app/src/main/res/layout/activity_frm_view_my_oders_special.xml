@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frmTakeOrder">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:background="@color/background"
+        >
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            >
+            <ImageView
+                android:id="@+id/nImageView"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
+            <ImageView
+                android:id="@+id/imgFav"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="40dp"
+                android:clickable="true">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favlabel"
+                android:layout_marginTop="260dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="75dp"
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/nName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Name"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="@color/darkbtncolor"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/nPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textColor="@color/price"
+                android:textStyle="bold"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="25dp"
+                android:textSize="15sp"
+                />
+
+
+            <TextView
+                android:id="@+id/nDiscount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="25dp"
+                android:text="Discount"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/nDescription"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="100dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Description"
+                android:background="@drawable/back"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="-16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <EditText
+                android:id="@+id/txtqty"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rec"
+                android:paddingLeft="20dp"
+                android:inputType="number"
+                android:hint="Quantity"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When do you want the delivery"
+                android:textStyle="bold"
+                android:textColor="@color/darkbtncolor"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/rec"
+                android:hint="Select Delivery Date"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:textSize="16sp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imgDate"
+                android:layout_width="74dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="272dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:paddingTop="10dp"
+                android:paddingLeft="12dp"
+                android:clickable="true"
+                android:src="@drawable/ic_date_range_black_24dp"/>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:text="Select Weght"
+                android:textColor="@color/darkbtncolor"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/txtweight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="25dp"
+                android:spinnerMode="dialog"
+                android:paddingLeft="150dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:text="Message on Cake"
+                android:textColor="@color/darkbtncolor"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtcakemessage"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/rec"
+                android:hint="Happy Birthday"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/deeppurple" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnverifyorder"
+            android:layout_marginTop="20dp"
+            android:background="@color/actionbar"
+            android:layout_width="250dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="45dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/btncolor"
+            android:textAllCaps="false"
+            android:text="Verify Your Order" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/btncolor">
+
+            <ImageView
+                android:id="@+id/imgaddtocart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/tvaddtocart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

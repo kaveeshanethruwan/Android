@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <color name="colorPrimary">#eeeeee</color>
+ <color name="colorPrimaryDark">#FFFFFF</color>
+ <color name="backgroundcolor">#fcfcfc</color>
+
+    <color name="statusbar">#eeeeee</color>
+    <color name="actionbar">#FFFFFF</color>
+    <color name="background">#EEEEEE</color>
+
+
+
+
+    <color name="lightgray">#FFFFFF</color>
+    <color name="deeppurple">#7C4DFF</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#333333</color>
+    <color name="darkblue">#23283A</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>#
+    <color name="pinknew">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="txtusername">#F70354</color>
+
+    <color name="text">#009688</color>
+    <color name="rate">#778686</color>
+
+
+    <color name="load">#F8F8F8</color>
+
+   <color name="btncolor">#D1218A</color>
+    <color name="darkbtncolor">#9E0560</color>
+    <color name="darkblack">#050404</color>
+
+
+
+    <color name="price">#0E870E</color>
+    <color name="discount">#D51031</color>
+
+    <color name="menured">#E6021D</color>
+
+
+    ///
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="material_blue_grey_80">#575555</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="menu">#948D8D</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="text_color">#F7F4F4</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

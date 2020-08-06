@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".frmBeforeFinishSenderDetails">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:cardCornerRadius="10dp"
+        android:background="@color/load">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sender Name"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:textColor="@color/darkbtncolor"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+        <EditText
+            android:id="@+id/txtsendername"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rec"
+            android:paddingLeft="20dp"
+            android:inputType="textPersonName"
+            android:hint="Sender Name"/>
+        <CheckBox
+            android:id="@+id/checkname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="18dp"
+            android:text="Keep Sender Anonymous "
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:textColor="@color/rate"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:text="Your Personal Message: (This will be printed and sent with the order)"
+            android:textColor="@color/darkbtncolor"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+
+        <EditText
+            android:id="@+id/txtsendermessage"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="182dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Optional"
+            android:background="@drawable/back"
+            />
+        <CheckBox
+            android:id="@+id/checkmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="259dp"
+            android:layout_marginLeft="18dp"
+            android:text="No Special Message/Greetings"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:textColor="@color/rate"/>
+
+        <Button
+            android:id="@+id/btncontinue"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/btncolor"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/actionbar"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
