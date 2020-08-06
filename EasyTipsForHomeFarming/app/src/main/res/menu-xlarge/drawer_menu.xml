@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Genaral"
+        android:id="@+id/menu">
+        <menu>
+            <item
+                android:id="@+id/nav_myfav"
+                android:icon="@drawable/ic_add_black_24dp"
+                android:title="Add New Item" />
+            <item
+                android:id="@+id/nav_modifications"
+                android:icon="@drawable/ic_edit_black_24dp"
+                android:title="Modification" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_stars_black_24dp"
+                android:title="Reviews" />
+<!--            <item-->
+<!--                android:id="@+id/nav_rate"-->
+<!--                android:icon="@drawable/ic_star_half_black_24dp"-->
+<!--                android:title="Rate us" />-->
+
+        </menu>
+    </item>
+
+    <item android:title="Account Preferences"
+        android:id="@+id/accountMenu">
+        <menu>
+            <item
+                android:id="@+id/nav_AddUser"
+                android:icon="@drawable/ic_group_add_black_24dp"
+                android:title="Add New User" />
+            <item
+                android:id="@+id/nav_resetPassword"
+                android:icon="@drawable/ic_autorenew_black_24dp"
+                android:title="Reset Password" />
+        </menu>
+    </item>
+
+    <group android:menuCategory="secondary">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_camera_black_24dp"
+            android:title="Logout" />
+    </group>
+
+
+
+
+</menu>

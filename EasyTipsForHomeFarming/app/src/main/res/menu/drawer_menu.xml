@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="
+">
+
+    <item android:title="Genaral"
+        android:id="@+id/menu">
+        <menu>
+            <item
+                android:id="@+id/nav_myfav"
+                android:icon="@drawable/ic_camera_black_24dp"
+                android:title="My Favourites" />
+<!--            <item-->
+<!--                android:id="@+id/nav_myorders"-->
+<!--                android:icon="@drawable/ic_cake_black_24dp"-->
+<!--                android:title="My Orders" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_profile"-->
+<!--                android:icon="@drawable/ic_finger"-->
+<!--                android:title="Reset Password" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_rate"-->
+<!--                android:icon="@drawable/ic_star_half_black_24dp"-->
+<!--                android:title="Rate us" />-->
+
+        </menu>
+    </item>
+
+    <group android:menuCategory="secondary">
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_camera_black_24dp"
+            android:title="Logout" />
+    </group>
+
+
+
+
+</menu>

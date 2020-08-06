@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="appThemeBackground">#6DCBB0</color>
+    <color name="appThemeforground">#239883</color>
+    <color name="actionbar">#FFFFFF</color>
+    <color name="background">#EEEEEE</color>
+    <color name="silver">#778686</color>
+
+    <color name="blue_btn_bg_color">#1976D2</color>
+    <color name="blue_btn_bg_pressed_color">#1565C0</color>
+    <color name="whatsapp">#152b38</color>
+
+
+</resources>

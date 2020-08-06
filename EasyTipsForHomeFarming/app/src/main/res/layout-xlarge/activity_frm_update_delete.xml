@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".frmAddItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/appThemeforground"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="@color/whatsapp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Upload video here"
+                android:textColor="@color/appThemeforground"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="10dp" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/background"
+                android:text="Select Your Video"
+                android:textAllCaps="false"
+                android:textColor="@color/appThemeforground"
+                android:textSize="20dp" />
+            <!--            <Button-->
+            <!--                android:id="@+id/btnRemoveVideo"-->
+            <!--                android:layout_width="200dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="440dp"-->
+            <!--                android:textSize="20dp"-->
+            <!--                android:textAllCaps="false"-->
+            <!--                android:background="@color/background"-->
+            <!--                android:textColor="@color/appThemeforground"-->
+            <!--                android:layout_marginStart="250dp"-->
+            <!--                android:text="Remove"-->
+            <!--                />-->
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Climate"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtclimate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Soil"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtsoil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rec"
+                android:textSize="20dp"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Duration For Planting"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txttimeduration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommended Sources For Planting"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtrecommendedsources"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Seeds Limitations"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtseedslimitations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Seeds Nursery"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtnersery"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommended Fertilizers"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtfertilizers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rec"
+                android:textSize="20dp"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Watering"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtwatering"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Harvesting"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txtHarvest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@drawable/rec"
+                android:paddingStart="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="560dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Image For Display In Front"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/appThemeforground"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/imgVF"
+                android:layout_marginEnd="250dp"
+                android:layout_height="370dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_file_upload_black_24dp"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="440dp"
+                android:id="@+id/btnSelectImage"
+                android:textAllCaps="false"
+                android:background="@color/background"
+                android:textColor="@color/appThemeforground"
+                android:layout_marginStart="15dp"
+                android:textSize="20dp"
+                android:text="Select Your Image"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500dp"
+                android:id="@+id/btnRemoveImage"
+                android:textAllCaps="false"
+                android:background="@color/background"
+                android:textColor="@color/appThemeforground"
+                android:layout_marginStart="15dp"
+                android:textSize="20dp"
+                android:text="Remove"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/whatsapp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <Button
+                android:id="@+id/btnSubmitForm"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:textAllCaps="false"
+                android:background="@color/appThemeforground"
+                android:textColor="@color/actionbar"
+                android:layout_marginStart="15dp"
+                android:textSize="20dp"
+                android:text="Upload Item"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

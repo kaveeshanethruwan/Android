@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appThemeforground</item>
+        <item name="colorPrimaryDark">@color/appThemeforground</item>
+        <item name="colorAccent">@color/appThemeforground</item>
+    </style>
+
+    <!--menu style-->
+    <style name="AppTheme.NoActionBarFront">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/whatsapp</item>
+    </style>
+
+<!--    home action bar text size-->
+    <style name="homeTextSize" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+<!--    navigation style-->
+    <style name="NavigationView">
+        <item name="android:textColorSecondary">@color/actionbar</item>
+        <item name="android:textSize">18dp</item>
+
+    </style>
+
+</resources>
