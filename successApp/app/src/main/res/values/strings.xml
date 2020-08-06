@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Testing..</string>
+    <string name="empno">Employee No</string>
+    <string name="empname">Employee Name</string>
+    <string name="empmale">Male</string>
+    <string name="empfemale">Female</string>
+    <string name="empage">Employee Age</string>
+    <string name="submit">Submit</string>
+    <string name="moreoption">More Options</string>
+    <string name="search">Search</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="gender">Gender</string>
+
+    <string name="welcome">Welcome to NIBM</string>
+    <string name="txtsignup">--Sign up--</string>
+    <string name="txtname">First Name</string>
+    <string name="txtlname">Last Name</string>
+    <string name="txtcontact">Contact No</string>
+    <string name="txtemail">Email</string>
+    <string name="txtpassword">Password</string>
+    <string name="btnsignup">Send network request</string>
+
+
+</resources>
